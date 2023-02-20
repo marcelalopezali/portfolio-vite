@@ -24,7 +24,7 @@ const SectionAbout = () => {
                 </div>
                 <div className="texto">
                     <a href="#" target="_blank"></a>
-                    <a><h5>Curriculum Vitae Completo</h5></a>
+                    {/*<a><h5>Curriculum Vitae Completo</h5></a>*/}
                 </div>
                 <a href="#nav"><h5>Volver al inicio</h5></a>
             </div> 
