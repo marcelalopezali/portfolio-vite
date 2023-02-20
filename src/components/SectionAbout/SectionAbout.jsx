@@ -1,6 +1,6 @@
 import React from 'react';
 import './SectionAbout.css';
-import cv22 from '../../assets/cv22.pdf';
+
 
 import {BsCircleFill} from 'react-icons/bs';
 
