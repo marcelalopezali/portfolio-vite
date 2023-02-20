@@ -10,7 +10,7 @@ const SectionSkills = () => {
         <section className="skills">
             <div className="tools">
                 <div className="enjoy">
-                    <h3 className='h3'><BsChevronDoubleLeft className="left"/>Change your life with healthy food, <span> it is posible</span><BsChevronDoubleRight className='left'/></h3>
+                    <h3 className='h3'><BsChevronDoubleLeft className="left"/>Change your life with healthy food, <span> is posible</span><BsChevronDoubleRight className='left'/></h3>
                 </div>
 
                 <h4>Skills</h4>
