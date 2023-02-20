@@ -20,7 +20,6 @@ const SectionServ = () => {
                     <button className="btnInfo">Info</button>
                 </div>
             </div> 
-           {/*} <img src="" alt="foto" className='foto'/>*/}
         </section>
     )
 }
