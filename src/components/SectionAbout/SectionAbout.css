@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #BFBFBF;   
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0 150px 0;
+    font-family:'Metal', cursive, 'Poppins', sans-serif;
+}
+
+.imgPan{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    background-image: url(../../assets/lisboa.jpg);
+    background-position: 65% 80%;
+    opacity: 70%;
+    background-repeat: no-repeat;
+    transform: rotate(-3deg);
+}
+
+.textAb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    max-height: 600px;
+    font-family: 'metal';
+}
+
+h2{
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+.circulo{
+    position: absolute;
+    left: 1040px;
+    top: 1160px;
+    color: #FEF7C0;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+.aboutMe >.textAb > .texto a> h5{
+    margin: 10px;
+    padding: 10px;
+}
+
+.aboutMe >.textAb >.texto> h2{
+    color: white;
+}
+
+.aboutMe >.textAb > .texto> h5{
+    color: #4d4c4c;
+}
+
+.texto >.h3 > span{
+    display: block;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btnCard1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #3e3e3f;
+    background: #BFBFBF;
+    border: 1px solid #999CA3;
+    background-color: #999CA3;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+@media (max-width:800px){
+    body{
+        width: 100vw;
+    }
+    .aboutMe{
+        margin-top: 50px;
+    }
+    .imgPan{
+        display: none;
+    }
+
+    .aboutMe .textAb > .texto > h2{
+        font-size: 5rem;
+        color: transparent;
+    }
+
+    .circulo{
+        left: 257px;
+        top: 1084px;
+    }
+
+    h3{
+        font-size: 2.7rem;
+    }
+
+    .textAb{
+        width: 400px;
+        height: 500px;
+    }
+
+    .textAb > .btnCard{
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .textAb > h5{
+        font-size: 1rem;
+    }
+    .left{
+        display: none;;
+    }
+
+}
+
+@media (max-width:1470px){
+.circulo{
+    display: none;
+}
+}

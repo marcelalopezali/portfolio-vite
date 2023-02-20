@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #BFBFBF;   
+}
+
+.boxWorks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 180px 0 100px 0;
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    max-width: 900px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.boxWorks .card1  > img{
+    background-image: url(../../assets/mmusc.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.boxWorks .card2  > img{
+    background-image: url(../../assets/low.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.boxWorks .card3  > img{
+    background-image: url(../../assets/nadar.jpg);
+    background-position: center;
+    background-size: cover;
+    width:  450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.boxWorks .card4  > img{
+    background-image: url(../../assets/cm.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.planes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    width: 450px;
+    height: 300px;
+}
+
+h3 span {
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.white{
+    color: white;
+}
+
+h1{
+    font-size: 1rem bold;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 2rem bold;
+    font-weight: bold 100;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #FEF7C0;
+    font-family:'Poppins' ;
+}
+
+.btnCard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold 100;
+    width: 90px;
+    color: #3e3e3f;
+    border-radius: 30px;
+    border-color: #999CA3;
+    background-color: #999CA3;
+}
+
+@media (max-width:800px){
+    .boxWorks > h3{
+        font-size: 2rem;
+    }
+
+    .boxWorks > .card4 > .planes h1{
+        font-size: 1rem;
+    } 
+    .boxWorks > .card3 > .planes h1{
+        font-size: 1rem;
+    }
+    .boxWorks > .card2 > .planes h1{
+        font-size: 1rem;
+    }
+    .boxWorks > .card1 > .planes h1{
+        font-size: 1rem;
+    } 
+
+    .card1, .card2, .card3, .card4{
+        width: 90%;
+        height: 220px;
+        max-width: 500px;
+        margin: 30px;
+        padding: 20px;
+    }
+    .planes{
+        justify-content: center;
+        height: 220px;
+    }
+    .boxWorks .card1  > img{
+        width: 350px;
+        height: 200px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .boxWorks .card2  > img{
+        width: 350px;
+        height: 200px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .boxWorks .card3  > img{
+        width: 350px;
+        height: 200px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .boxWorks .card4  > img{
+        width: 350px;
+        height: 200px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+
+    .planes > h5{
+        display: none;
+    }
+}
